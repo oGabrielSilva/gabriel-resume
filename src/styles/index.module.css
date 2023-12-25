@@ -61,6 +61,7 @@
 
 .file2 {
   text-align: start;
+  max-width: 520px;
 }
 
 .file h2,
@@ -81,4 +82,12 @@
 
 .education li {
   margin-bottom: 1rem;
+}
+
+@media (min-width: 1440px) {
+  .presentation,
+  .body {
+    display: flex;
+    justify-content: center;
+  }
 }
