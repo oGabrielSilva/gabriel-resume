@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1.5fr;
   gap: 3rem;
   background: var(--variant);
-  padding: 3rem 2rem;
+  padding: 4rem 2rem;
   align-items: center;
 }
 
@@ -38,4 +38,47 @@
   display: flex;
   flex-direction: column;
   text-align: end;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 3rem;
+  padding: 4rem 3rem;
+  align-items: center;
+}
+
+.profile,
+.part2 {
+  min-height: 100%;
+}
+
+.file,
+.file2 {
+  text-align: end;
+  line-height: 20px;
+}
+
+.file2 {
+  text-align: start;
+}
+
+.file h2,
+.file2 h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.file2 p {
+  margin-top: 0.5rem;
+}
+
+.file2 ul li {
+  margin-bottom: 1rem;
+}
+
+.education li {
+  margin-bottom: 1rem;
 }
