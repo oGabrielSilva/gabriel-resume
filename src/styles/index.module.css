@@ -81,6 +81,13 @@
   margin-bottom: 0.5rem;
 }
 
+.file2 ul {
+  gap: 1rem;
+  column-gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .file2 ul li {
   padding: 0.5rem 0;
 }
@@ -105,5 +112,13 @@
 
   .info {
     width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .file2 ul {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }

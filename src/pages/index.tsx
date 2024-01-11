@@ -117,6 +117,36 @@ export default function Index() {
               <ul>
                 <li>
                   <div>
+                    <h3>Projeto Caprinu</h3>
+                    <span>Desenvolvedor FullStack, Floresta (PE) | 2021 - 2022</span>
+                  </div>
+                  <div>
+                    <p>
+                      Caprinu foi um projeto de extensão promovido pelo IFSertãoPE, a instituição
+                      onde estou matriculado. Seu propósito era desenvolver uma plataforma online
+                      que integrasse informações e unificasse o sistema de caprinovinocultores da
+                      região. No meu segundo semestre na faculdade, fui indicado por um dos
+                      professores que percebeu minha habilidade como desenvolvedor e reconheceu que
+                      eu possuía o conhecimento necessário para contribuir significativamente ao
+                      projeto. A aceitação foi rápida, e inicialmente, fui designado para o
+                      desenvolvimento do backend. No entanto, em pouco tempo, passei a desempenhar
+                      um papel mais abrangente, participando ativamente da construção de toda a
+                      plataforma. Além disso, conduzi reuniões com clientes e potenciais clientes,
+                      contribuí na elaboração do artigo científico e apresentei pitches para
+                      promover o projeto. Essa experiência ampliou minha visão prática e habilidades
+                      além do desenvolvimento, proporcionando uma participação abrangente no ciclo
+                      de vida do projeto.
+                    </p>
+                  </div>
+                  <div>
+                    <span>
+                      <strong>Tecnologias utilizadas: </strong> JavaScript; Babel; Webpack; Python;
+                      Django; e PostgreSQL
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div>
                     <h3>Projeto Pescape</h3>
                     <span>Desenvolvedor FullStack, Floresta (PE) | 2023</span>
                     <div>
@@ -153,31 +183,69 @@ export default function Index() {
                 </li>
                 <li>
                   <div>
-                    <h3>Projeto Caprinu</h3>
-                    <span>Desenvolvedor FullStack, Floresta (PE) | 2021 - 2022</span>
+                    <h3>Projeto rede social</h3>
+                    <span>Desenvolvedor, Floresta (PE) | 2023 - atual</span>
+                    <div>
+                      <strong>GitHub (versão Android):</strong>{' '}
+                      <Link
+                        target="_blank"
+                        href="https://github.com/oGabrielSilva/noble-sync-android-application"
+                      >
+                        https://github.com/oGabrielSilva/noble-sync-android-application
+                      </Link>
+                    </div>
                   </div>
                   <div>
                     <p>
-                      Caprinu foi um projeto de extensão promovido pelo IFSertãoPE, a instituição
-                      onde estou matriculado. Seu propósito era desenvolver uma plataforma online
-                      que integrasse informações e unificasse o sistema de caprinovinocultores da
-                      região. No meu segundo semestre na faculdade, fui indicado por um dos
-                      professores que percebeu minha habilidade como desenvolvedor e reconheceu que
-                      eu possuía o conhecimento necessário para contribuir significativamente ao
-                      projeto. A aceitação foi rápida, e inicialmente, fui designado para o
-                      desenvolvimento do backend. No entanto, em pouco tempo, passei a desempenhar
-                      um papel mais abrangente, participando ativamente da construção de toda a
-                      plataforma. Além disso, conduzi reuniões com clientes e potenciais clientes,
-                      contribuí na elaboração do artigo científico e apresentei pitches para
-                      promover o projeto. Essa experiência ampliou minha visão prática e habilidades
-                      além do desenvolvimento, proporcionando uma participação abrangente no ciclo
-                      de vida do projeto.
+                      Atualmente, estou dedicando meu tempo ao desenvolvimento de um projeto
+                      próprio, focado na criação de uma rede social que promove a interação entre
+                      diversas comunidades. Iniciei o desenvolvimento para a web, mas decidi
+                      priorizar a implementação da versão mobile do sistema. Atualmente, estou
+                      concentrado na criação da aplicação nativa para Android, com planos de
+                      estender para outras plataformas posteriormente. O objetivo é proporcionar uma
+                      experiência otimizada e específica para cada sistema operacional, garantindo
+                      uma integração perfeita com as características de cada plataforma.
                     </p>
                   </div>
                   <div>
                     <span>
-                      <strong>Tecnologias utilizadas: </strong> JavaScript; Babel; Webpack; Python;
-                      Django; e PostgreSQL
+                      <strong>Tecnologias utilizadas: </strong> TypeScript; Next.js; Android;
+                      Kotlin; e Firebase
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <h3>Currículo digital</h3>
+                    <span>Desenvolvedor FullStack, Floresta (PE) | 2024</span>
+                    <div>
+                      <strong>GitHub:</strong>{' '}
+                      <Link target="_blank" href="https://github.com/oGabrielSilva/gabriel-resume">
+                        https://github.com/oGabrielSilva/gabriel-resume
+                      </Link>{' '}
+                      | <strong>Projeto:</strong>{' '}
+                      <Link target="_blank" href="https://gabriel-resume.vercel.app/">
+                        https://gabriel-resume.vercel.app
+                      </Link>
+                    </div>
+                  </div>
+                  <div>
+                    <p>
+                      O currículo que está sendo apresentado é uma versão em PDF do meu currículo
+                      digital. Este projeto foi fundamental para facilitar o desenvolvimento da
+                      estrutura do meu currículo, especialmente porque enfrento algumas dificuldades
+                      ao utilizar programas como o Canva. Além disso, a proposta inclui manter esse
+                      currículo digital como um modelo, um sistema que permite a qualquer pessoa
+                      criar seu próprio currículo, adicionando suas informações de maneira simples.
+                      Dessa forma, busca-se disponibilizar uma ferramenta de criação de currículos
+                      nesse formato de maneira gratuita, proporcionando uma solução acessível e
+                      eficiente para todos.
+                    </p>
+                  </div>
+                  <div>
+                    <span>
+                      <strong>Tecnologias utilizadas: </strong> TypeScript; Next.js; React.js; e
+                      Vercel
                     </span>
                   </div>
                 </li>
