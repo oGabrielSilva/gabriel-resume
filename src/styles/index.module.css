@@ -41,11 +41,11 @@
 }
 
 .body {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  display: flex;
   gap: 3rem;
-  padding: 4rem 3rem;
+  padding: 2rem;
   align-items: center;
+  justify-content: center;
 }
 
 .profile,
@@ -55,33 +55,38 @@
 
 .file,
 .file2 {
-  text-align: end;
-  line-height: 20px;
+  border-bottom: 1px solid var(--border);
 }
 
 .file2 {
   text-align: start;
-  max-width: 520px;
+  max-width: 680px;
 }
 
 .file h2,
 .file2 h2 {
   text-transform: uppercase;
-  font-weight: 400;
   margin-bottom: 1rem;
   margin-top: 2rem;
+  color: var(--text);
+}
+
+.file h3,
+.file2 h3 {
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .file2 p {
   margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .file2 ul li {
-  margin-bottom: 1rem;
+  padding: 0.5rem 0;
 }
 
 .education li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 @media (min-width: 1440px) {
@@ -89,5 +94,16 @@
   .body {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .presentation {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .info {
+    width: 100%;
   }
 }
