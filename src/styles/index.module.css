@@ -40,7 +40,8 @@
   text-align: end;
 }
 
-.body {
+.body,
+.footer {
   display: flex;
   gap: 3rem;
   padding: 2rem;
@@ -48,26 +49,35 @@
   justify-content: center;
 }
 
+.footer {
+  display: block;
+}
+
 .profile,
 .part2 {
   min-height: 100%;
 }
 
-.file,
-.file2 {
+.file:not(:last-child),
+.file2:not(:last-child) {
   border-bottom: 1px solid var(--border);
+}
+
+.file:last-child,
+.file2:last-child {
+  padding-bottom: 2rem;
 }
 
 .file2 {
   text-align: start;
-  max-width: 680px;
+  max-width: 960px;
 }
 
 .file h2,
 .file2 h2 {
   text-transform: uppercase;
   margin-bottom: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   color: var(--text);
 }
 
@@ -89,11 +99,18 @@
 }
 
 .file2 ul li {
-  padding: 0.5rem 0;
+  padding-bottom: 1rem;
 }
 
 .education li {
   margin-bottom: 0.5rem;
+}
+
+.extra1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  padding-bottom: 0.5rem;
 }
 
 @media (min-width: 1440px) {

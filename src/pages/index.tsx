@@ -54,22 +54,47 @@ export default function Index() {
               </p>
             </div>
             <div className={styles.file}>
-              <h2>Ensino superior</h2>
-              <ol className={styles.education}>
-                <li>
+              <div className={styles.extra1}>
+                <div>
+                  <h2>Extra</h2>
                   <div>
-                    <strong>Gestão da Tecnologia da Informação</strong>
+                    <strong>Nome:</strong> <span>Gabriel Henrique da Silva</span>
                   </div>
                   <div>
-                    <span>Instituto Federal do Sertão Pernambucano</span>
+                    <strong>Sexo:</strong> <span>Masculino</span>
                   </div>
                   <div>
-                    <span>
-                      IFSertãoPE <i>campus</i> Floresta | 2021 - cursando
-                    </span>
+                    <strong>Data de nascimento:</strong> <span>11 de Abril de 2001</span>
                   </div>
-                </li>
-              </ol>
+                  <div>
+                    <strong>Cidade:</strong> <span>Floresta</span>
+                  </div>
+                  <div>
+                    <strong>UF:</strong> <span>Pernambuco</span>
+                  </div>
+                  <div>
+                    <strong>Nacioanalidade:</strong> <span>Brasileiro</span>
+                  </div>
+                </div>
+                <div className={styles.file}>
+                  <h2>Ensino superior</h2>
+                  <ol className={styles.education}>
+                    <li>
+                      <div>
+                        <strong>Gestão da Tecnologia da Informação</strong>
+                      </div>
+                      <div>
+                        <span>Instituto Federal do Sertão Pernambucano</span>
+                      </div>
+                      <div>
+                        <span>
+                          IFSertãoPE <i>campus</i> Floresta | 2021 - cursando
+                        </span>
+                      </div>
+                    </li>
+                  </ol>
+                </div>
+              </div>
             </div>
             <div id="employment" className={styles.file2}>
               <h2>Histórico profissional</h2>
@@ -316,6 +341,13 @@ export default function Index() {
             </div>
           </div>
         </section>
+        <footer className={styles.footer}>
+          <span>
+            <strong>Nota:</strong> Este currículo é uma versão impressa{' '}
+            <Link href="https://gabriel-resume.vercel.app">deste site</Link>. Assim, é possível que
+            contenha informações e correções que não estão refletidas no documento atual.
+          </span>
+        </footer>
       </main>
     </>
   );
