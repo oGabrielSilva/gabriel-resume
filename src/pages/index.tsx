@@ -341,7 +341,7 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <footer className={styles.footer}>
+        <footer className={styles.footer} style={{ display: 'none' }}>
           <span>
             <strong>Nota:</strong> Este currículo é uma versão impressa{' '}
             <Link href="https://gabriel-resume.vercel.app">deste site</Link>. Assim, é possível que
